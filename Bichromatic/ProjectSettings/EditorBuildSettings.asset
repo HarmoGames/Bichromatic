@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 564443bbec8a7c84788394fd58b6ffae
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 31290a32a2373314c8a7d7133f1695fa
+  - enabled: 1
+    path: Assets/Scenes/Level 0/TutorialIntro.unity
+    guid: 5360adab1c575c8438fa5f426c45af82
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial2.unity
+    guid: a71e1535d78a30148bd0daa0c493a7b7
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial3.unity
+    guid: 0a92a9d150249fb49b343d1154456a1c
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial4.unity
+    guid: b19f85b416abd1c43a21ad6d88a39572
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial5.unity
+    guid: eb276c17cd7b87b478f181232addbd0c
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial6.unity
+    guid: 5003e8e313e1bf94f8d55e6c88185eb8
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial7.unity
+    guid: 12ec87e0e61110b4999e08d99400144e
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial8.unity
+    guid: ccf5886ca1e8de548ad77a01f4ae805b
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial9.unity
+    guid: b6ed5d7c51a81bb48b9d4badbd348607
+  - enabled: 1
+    path: Assets/Scenes/Level 0/Tutorial10.unity
+    guid: 518152e3c423a454486cb3941f4546ef
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level1-0.unity
+    guid: 632214f52d375f44ab7eaa63bc010abb
+  - enabled: 1
+    path: Assets/Scenes/Level 1/Level1-1.unity
+    guid: 00e2c72b8a9b5a34d8caef54e5c35198
+  - enabled: 1
+    path: Assets/Scenes/Level 2/Level2-0.unity
+    guid: aef634cc0d54b554c978c46c303adb62
+  - enabled: 1
+    path: Assets/Scenes/Level 2/Level2-1.unity
+    guid: e54c059a6e532e5498c4aaef8c9804cc
+  - enabled: 1
+    path: Assets/Scenes/Level 3/Level3-0.unity
+    guid: 00c56f9ea21190e4f92e42c20155500d
+  - enabled: 1
+    path: Assets/Scenes/Level 3/Level3-1.unity
+    guid: 3673fee80f57a094c9b7f3c2fc85d54e
+  - enabled: 1
+    path: Assets/Scenes/Level 4/Level4-0.unity
+    guid: 57057ad6076adfa488f5e5279ed7d699
+  - enabled: 1
+    path: Assets/Scenes/Level 4/Level4-1.unity
+    guid: bf59209f981e98f4fb51634b0084a011
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 8a9de393395eb734682d3b0ed703d815
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/Awakening Cube.unity
+    guid: 60210042f2696084ba876e138685173d
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX1.unity
+    guid: dda1b37811eda5d4f8033c45088f85ac
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX2.unity
+    guid: ee950018013b2a84483ac38598d939b2
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX3.unity
+    guid: 7061752146957dd4dbac858680c6598f
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX4.unity
+    guid: d120a8a37efa0ea40abd3881a5b88409
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX5.unity
+    guid: 487a81f9c41a75242b66fc8f6730a84b
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX6.unity
+    guid: c79ba4ddd3f305545850ba4bcd95916e
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX7.unity
+    guid: af9cbfa56ba751048b6988f81a5deb41
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX8.unity
+    guid: cd41ed7f6180bcd4ab055b5dc26e4aca
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX9.unity
+    guid: 0e48e3ca2f84bd64e9710a9c3b2b11de
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/Tuto/TutorialEX10.unity
+    guid: e2ff860a7a3450f48a65b90405b793ef
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/AfterTuto/AfterTutorial.unity
+    guid: a2510f964e62349418abfc268e46f206
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/AfterTuto/DestroyedMap.unity
+    guid: 5d91c85fbd387b843b3181542ea145b2
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/The Inception/Inception.unity
+    guid: 8e43466f437d51b40aec4f4af2694a56
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/FirstContact1.unity
+    guid: 78f7920d8c3294345a216cc08748e512
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/FirstContact2.unity
+    guid: a2fe156eb32ef0a4f9189c6bb4380d89
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/FirstContact3.unity
+    guid: 5d0ab03f32ddcf341a15ca1faa3857f5
+  m_configObjects: {}
