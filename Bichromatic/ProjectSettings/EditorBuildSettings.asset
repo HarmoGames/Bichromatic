@@ -122,4 +122,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Story Mode/FirstContact3.unity
     guid: 5d0ab03f32ddcf341a15ca1faa3857f5
+  - enabled: 1
+    path: Assets/Scenes/Story Mode/FirstContact4.unity
+    guid: 82e44d20e7647d544a61f62c87eb780a
   m_configObjects: {}

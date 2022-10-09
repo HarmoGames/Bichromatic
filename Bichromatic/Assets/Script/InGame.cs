@@ -20,6 +20,7 @@ public class InGame : MonoBehaviour
     public SpriteRenderer bg;
     public float ColorTransition, colorTime,cameraTime;
     public Transform Camera;
+    public Transform[] CameraBackground;
     public Animator Cameranim;
     [SerializeField] public CameraOpening cameraOpen;
     private Vector3 CTarget, UITarget;
@@ -95,6 +96,10 @@ public class InGame : MonoBehaviour
         Camera.rotation = Quaternion.Euler(new Vector3(0,0,0));
         if(texts)
             texts.rotation = Quaternion.Euler(new Vector3(0,0,0));
+        foreach(Transform bg in CameraBackground)
+        {
+            bg.rotation = Quaternion.Euler(new Vector3(0,0,0));
+        }
         player.transform.position = spawnPoint[(int)levelIndex];
 
         foreach(RoomMoveManager roommove in roomMoves)
@@ -142,6 +147,11 @@ public class InGame : MonoBehaviour
         Camera.rotation = Quaternion.Slerp(Camera.rotation, Quaternion.Euler(CTarget), CTime);
         if(texts)
             texts.rotation = Quaternion.Slerp(texts.rotation, Quaternion.Euler(UITarget), CTime);
+
+        foreach(Transform bg in CameraBackground)
+        {
+            bg.rotation = Quaternion.Slerp(bg.rotation, Quaternion.Euler(CTarget), CTime);
+        }
         CTime = Mathf.Lerp(0f, 1f, cameraTime*Time.deltaTime);
 
         if(Input.GetKeyDown(KeyCode.Escape))
